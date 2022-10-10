@@ -1,0 +1,45 @@
+{
+    "name": "phaser-react-ts-vite-starter",
+    "version": "1.0.0",
+    "description": "Phaser 3 template (using React, Typescript and Vite)",
+    "license": "WTFPL",
+    "scripts": {
+        "dev": "npx vite dev --open",
+        "build": "tsc && vite build",
+        "test": "echo \"What test lol\" && exit 1"
+    },
+    "dependencies": {
+        "phaser": "^3.55.2",
+        "react": "^18.1.0",
+        "react-dom": "^18.1.0"
+    },
+    "devDependencies": {
+        "ts-node": "^10.9.1",
+        "@types/node": "^18.6.1",
+        "@types/react": "^18.0.9",
+        "@types/react-dom": "^18.0.3",
+        "@vitejs/plugin-react": "^1.3.2",
+        "nodemon": "^2.0.19",
+        "typescript": "^4.6.4",
+        "vite": "^2.9.8"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com:Firnael/phaser-react-ts-vite-starter.git"
+    },
+    "keywords": [
+        "template",
+        "phaser",
+        "typescript",
+        "react",
+        "vite"
+    ],
+    "author": "Audron",
+    "bugs": {
+        "url": "https://github.com/Firnael/phaser-react-ts-vite-starter/issues"
+    },
+    "homepage": "https://github.com/Firnael/phaser-react-ts-vite-starter/blob/main/README.md",
+    "volta": {
+        "node": "16.15.0"
+    }
+}
